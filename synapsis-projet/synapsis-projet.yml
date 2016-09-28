@@ -24,4 +24,4 @@ eureka:
     
 
 logging:
-  config: https://raw.githubusercontent.com/IPC-SynapsIs/synapsis-properties/master/synapsis-cv/log4j.properties
+  config: https://raw.githubusercontent.com/IPC-SynapsIs/synapsis-properties/master/synapsis-projet/log4j.properties
