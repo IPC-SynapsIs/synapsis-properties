@@ -1,25 +1,7 @@
 spring:
-    datasource:
-        driverClassName: com.mysql.jdbc.Driver
-        testWhileIdle: true
-        validationQuery: SELECT 1
-    jpa:
-        database: MYSQL
-        hibernate:
-            ddl-auto: update
-            naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
-        properties:
-            hibernate:
-                dialect: org.hibernate.dialect.MySQL5Dialect
-
-
-eureka:
-    instance:
-        leaseRenewalIntervalInSeconds: 10
-        preferIpAddress: true
-    client:
-        registryFetchIntervalSeconds: 5
-        serviceUrl:
-            defaultZone: http://52.57.12.223:8761/eureka/
-    
-
+  datasource:
+    url: jdbc:mysql://52.29.169.103:3306/synapsis_project?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: synapsis
+    password: synapsis
+  jpa: 
+    show-sql: true
