@@ -1,5 +1,5 @@
 spring:
     datasource:
-        url: jdbc:mysql://52.29.169.103:3306/synapsis_cv?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-        username: ${USER_DB_SYNAPSIS}
-        password: ${PASSWORD_DB_SYNAPSIS}
+        url: jdbc:mysql://${IP_DB_SYNAPSIS_CV}:3306/synapsis_cv?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        username: ${USER_DB_SYNAPSIS_CV}
+        password: ${PASSWORD_DB_SYNAPSIS_CV}
