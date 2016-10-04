@@ -3,3 +3,14 @@ spring:
         url: jdbc:mysql://52.29.196.18:3306/synapsis-project?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false
         username: synapsis-project 
         password: Bt2jWnYEafvWZt3E
+        driverClassName: com.mysql.jdbc.Driver
+        testWhileIdle: true
+        validationQuery: SELECT 1
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: validate
+            naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL5Dialect
