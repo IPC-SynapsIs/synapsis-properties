@@ -6,7 +6,7 @@ spring:
     jpa:
         database: MYSQL
         hibernate:
-            ddl-auto: create
+            ddl-auto: validate
             naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
         properties:
             hibernate:
